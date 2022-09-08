@@ -85,12 +85,20 @@ footer{
 .footer-1, .fa-angle-up{
     padding: 5px;
 }
-.container-footer{
+/* .container-footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    
+} */
+
+.container-action{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .exit{
@@ -105,6 +113,9 @@ footer{
     display: flex;
     flex-flow: row nowrap;
     padding: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .color-green{
     color: var(--green)
@@ -112,8 +123,10 @@ footer{
 .object-anction{
     font-size: 15px;
 }
+
 .action{
     text-align: center;
+    align-items: baseline;
 }
 
 /* iterazioni */
