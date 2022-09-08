@@ -14,21 +14,24 @@
 main{
     background-color: var(--black);
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     color: white;
 }
+
 /* btn modifiche */
-.sect-1{
+.container-box{
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-    
+    color: white;
 }
 .box{
     align-items: baseline;
     border: 1px solid var(--grey);
     background-color: var(--grey);
     border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
 }
 
 /* modifiche main */
@@ -64,4 +67,38 @@ img{
     font-size: 15px;
     background-color: var(--light-grey);
     opacity: 0.8;
+}
+
+/* modifiche footer */
+footer{
+    background-color: var(--light-black);
+    color: white;
+    height: 10vh;
+    position: relative;
+}
+.footer-1, .fa-angle-up{
+    padding: 5px;
+}
+.container-footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exit{
+    position: absolute;
+    top:0;
+    right: 0;
+    color: red;
+    background-color: var(--light-grey);
+    padding: 10px;
+}
+.audio-video{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 5px;
+}
+.color-green{
+    color: var(--green)
 }
