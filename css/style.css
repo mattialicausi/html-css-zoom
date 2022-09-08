@@ -39,10 +39,10 @@ main{
     /* max-width: 100%; */
     /* margin: 0 auto; */
     position: absolute;
-    top: 50%;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
+    transform: translate(-50%, -50%); */
+padding: 0 30px;
 
 }
 .container-card{
@@ -68,13 +68,19 @@ img{
     background-color: var(--light-grey);
     opacity: 0.8;
 }
+.box-cross{
+    padding: 5px 10px;
+}
 
 /* modifiche footer */
 footer{
     background-color: var(--light-black);
     color: white;
     height: 10vh;
-    position: relative;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
 }
 .footer-1, .fa-angle-up{
     padding: 5px;
@@ -84,6 +90,7 @@ footer{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .exit{
@@ -101,4 +108,10 @@ footer{
 }
 .color-green{
     color: var(--green)
+}
+.object-anction{
+    font-size: 15px;
+}
+.action{
+    text-align: center;
 }
